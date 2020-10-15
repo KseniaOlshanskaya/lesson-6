@@ -14,7 +14,7 @@ public class Producer extends Thread{
     }
 
     public void run() {
-        InstrumentBuilderImpl builder = new InstrumentBuilderImpl();
+        nstrumentBuilderImpl builder = new InstrumentBuilderImpl();
         while(!isInterrupted()) {
             try {
                 sleep(500);
